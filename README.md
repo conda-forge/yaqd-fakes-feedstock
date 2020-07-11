@@ -1,7 +1,7 @@
 About yaqd-fakes
 ================
 
-Home: https://gitlab.com/yaq/yaqd-fakes
+Home: https://yaq.fyi
 
 Package license: LGPL-3.0-only
 
