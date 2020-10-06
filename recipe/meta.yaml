@@ -11,11 +11,12 @@ source:
   sha256: 13de7ab3235c29f29ef4ecc7ae4c16b41f21e4dd2df16b16e2321ca690e11aab
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - yaqd-fake-continuous-hardware = yaqd_fakes._fake_continuous_hardware:FakeContinuousHardware.main
     - yaqd-fake-discrete-hardware = yaqd_fakes._fake_discrete_hardware:FakeDiscreteHardware.main
+    - yaqd-fake-triggered-sensor = yaqd_fakes._fake_triggered_sensor:FakeTriggeredSensor.main
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -35,6 +36,7 @@ test:
     - pip check
     - yaqd-fake-continuous-hardware --help
     - yaqd-fake-discrete-hardware --help
+    - yaqd-fake-triggered-sensor --help
   requires:
     - pip
 
