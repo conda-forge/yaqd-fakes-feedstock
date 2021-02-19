@@ -1,5 +1,5 @@
 {% set name = "yaqd-fakes" %}
-{% set version = "2021.1.0" %}
+{% set version = "2021.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4c8e8b158f36f23dd04ce4a7eafeb08a5e52a450cb045cea3a764407ebb5d1c5
+  sha256: 8ca14ece96d77f823ac5de373e0192d9a922868aa97c03073f0d5b64d8e95ceb
 
 build:
   number: 0
