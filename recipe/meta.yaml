@@ -24,10 +24,10 @@ requirements:
     - pip
     - flit
     - python >=3.7
-    - yaqd-core >=2020.05.1
+    - yaqd-core >=2021.3.0
   run:
     - python >=3.7
-    - yaqd-core >=2020.05.1
+    - yaqd-core >=2021.3.0
 
 test:
   imports:
