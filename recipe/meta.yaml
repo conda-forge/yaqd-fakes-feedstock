@@ -1,5 +1,5 @@
 {% set name = "yaqd-fakes" %}
-{% set version = "2021.2.0" %}
+{% set version = "2021.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8ca14ece96d77f823ac5de373e0192d9a922868aa97c03073f0d5b64d8e95ceb
+  sha256: c8325532bcae1171709b2291124bc66359c4297827579b741a92abd21e452148
 
 build:
   number: 0
@@ -24,10 +24,10 @@ requirements:
     - pip
     - flit
     - python >=3.7
-    - yaqd-core >=2020.05.1
+    - yaqd-core >=2021.3.0
   run:
     - python >=3.7
-    - yaqd-core >=2020.05.1
+    - yaqd-core >=2021.3.0
 
 test:
   imports:
