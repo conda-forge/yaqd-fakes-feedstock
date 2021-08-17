@@ -1,5 +1,5 @@
 {% set name = "yaqd-fakes" %}
-{% set version = "2021.3.0" %}
+{% set version = "2021.8.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c8325532bcae1171709b2291124bc66359c4297827579b741a92abd21e452148
+  sha256: 7dd11f2292b3c5042cec531720c09bad4834968b7c54fe0ab23a4cba9f226328
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - yaqd-fake-continuous-hardware = yaqd_fakes._fake_continuous_hardware:FakeContinuousHardware.main
