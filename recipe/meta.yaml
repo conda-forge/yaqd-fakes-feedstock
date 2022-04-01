@@ -47,6 +47,7 @@ test:
     - yaqd-fake-camera --help
   requires:
     - pip
+    - numpy
 
 about:
   home: https://yaq.fyi
