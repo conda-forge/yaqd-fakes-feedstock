@@ -20,6 +20,7 @@ build:
     - yaqd-fake-has-turret = yaqd_fakes._fake_has_turret:FakeHasTurret.main
     - yaqd-fake-sensor = yaqd_fakes._fake_sensor:FakeSensor.main
     - yaqd-fake-spectrometer = yaqd_fakes._fake_spectrometer:FakeSpectrometer.main
+    - yaqd-fake-camera = yaqd_fakes._fake_camera:FakeCamera.main
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -43,6 +44,7 @@ test:
     - yaqd-fake-has-turret --help
     - yaqd-fake-sensor --help
     - yaqd-fake-spectrometer --help
+    - yaqd-fake-camera --help
   requires:
     - pip
 
